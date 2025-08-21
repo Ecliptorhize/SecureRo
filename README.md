@@ -21,3 +21,9 @@ An example script that sends code to the server lives in
 ## Utilities
 
 Reusable math helpers are available in `utils/math.js`.
+
+## Documentation
+
+Static documentation lives in the `docs/` directory. When the server is
+running, visit `http://localhost:3000/` to view the docs, API reference,
+and changelog.
