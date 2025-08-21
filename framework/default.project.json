@@ -1,0 +1,12 @@
+{
+  "name": "SecureRoFramework",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "SecureRo": {
+        "$path": "src"
+      }
+    }
+  }
+}
