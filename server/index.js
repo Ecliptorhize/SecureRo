@@ -1,8 +1,10 @@
 const express = require('express');
+const path = require('path');
 const { scan } = require('./scan');
 
 const app = express();
 app.use(express.json({ limit: '1mb' }));
+app.use(express.static(path.join(__dirname, '..', 'docs')));
 
 app.post('/scan', (req, res) => {
   const { code } = req.body;
