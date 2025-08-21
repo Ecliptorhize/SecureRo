@@ -1,0 +1,17 @@
+{
+  "name": "securero",
+  "version": "1.0.0",
+  "description": "Prototype Roblox code scanning server and plugin",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "node server/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
